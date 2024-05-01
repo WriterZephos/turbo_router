@@ -3,7 +3,7 @@ PATH
   specs:
     turbo-router (0.1.4)
       rails (>= 7.0.2.2)
-      turbo-rails
+      turbo-rails (~> 2.0)
 
 GEM
   remote: https://rubygems.org/
@@ -171,7 +171,7 @@ GEM
     rspec-support (3.12.0)
     thor (1.2.1)
     timeout (0.3.2)
-    turbo-rails (1.4.0)
+    turbo-rails (2.0.5)
       actionpack (>= 6.0.0)
       activejob (>= 6.0.0)
       railties (>= 6.0.0)
