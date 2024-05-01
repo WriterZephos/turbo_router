@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    turbo-router (0.1.4)
+    turbo-router (0.2.0)
       rails (>= 7.0.2.2)
       turbo-rails
 
