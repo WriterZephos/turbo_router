@@ -10,8 +10,6 @@ module TurboRouter
       layout lambda {
         use_dynamic_layout? ? "layouts/turbo_router_content" : self.class.page_layout
       }
-
-      before_action :set_turbo_frame_request_variant
     end
 
     class_methods do
@@ -37,16 +35,6 @@ module TurboRouter
 
     def turbo_router_stream(template, id = :turbo_router_content, **options)
       render turbo_stream: turbo_stream.replace(id, template: template, locals: options)
-    end
-
-    private
-
-    def set_turbo_frame_request_variant
-      request.variant = if turbo_frame_request?
-                          :turbo_frame
-                        else
-                          :page
-                        end
     end
   end
 end
