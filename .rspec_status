@@ -1,13 +1,15 @@
 example_id                                                                 | status | run_time        |
 -------------------------------------------------------------------------- | ------ | --------------- |
-./spec/turbo_router/controllers/custom_test_controller_spec.rb[1:1:1]      | passed | 0.00399 seconds |
-./spec/turbo_router/controllers/custom_test_controller_spec.rb[1:2:1:1:1]  | passed | 0.04985 seconds |
-./spec/turbo_router/controllers/custom_test_controller_spec.rb[1:2:1:2:1]  | passed | 0.00811 seconds |
-./spec/turbo_router/controllers/custom_test_controller_spec.rb[1:2:2:1]    | passed | 0.00269 seconds |
-./spec/turbo_router/controllers/custom_test_controller_spec.rb[1:3:1]      | passed | 0.00846 seconds |
-./spec/turbo_router/controllers/default_test_controller_spec.rb[1:1:1:1:1] | passed | 0.00597 seconds |
-./spec/turbo_router/controllers/default_test_controller_spec.rb[1:1:1:2:1] | passed | 0.00672 seconds |
-./spec/turbo_router/controllers/default_test_controller_spec.rb[1:1:1:3:1] | passed | 0.00429 seconds |
-./spec/turbo_router/controllers/default_test_controller_spec.rb[1:1:2:1]   | passed | 0.00241 seconds |
-./spec/turbo_router/controllers/helper_test_controller_spec.rb[1:1:1:1]    | passed | 0.00412 seconds |
-./spec/turbo_router_spec.rb[1:1]                                           | passed | 0.00106 seconds |
+./spec/turbo_router/controllers/custom_test_controller_spec.rb[1:1:1]      | passed | 0.00548 seconds |
+./spec/turbo_router/controllers/custom_test_controller_spec.rb[1:2:1:1:1]  | passed | 0.03591 seconds |
+./spec/turbo_router/controllers/custom_test_controller_spec.rb[1:2:1:2:1]  | passed | 0.00645 seconds |
+./spec/turbo_router/controllers/custom_test_controller_spec.rb[1:2:2:1]    | passed | 0.00255 seconds |
+./spec/turbo_router/controllers/custom_test_controller_spec.rb[1:3:1]      | passed | 0.00795 seconds |
+./spec/turbo_router/controllers/default_test_controller_spec.rb[1:1:1:1:1] | passed | 0.00567 seconds |
+./spec/turbo_router/controllers/default_test_controller_spec.rb[1:1:1:2:1] | passed | 0.00629 seconds |
+./spec/turbo_router/controllers/default_test_controller_spec.rb[1:1:1:3:1] | passed | 0.00455 seconds |
+./spec/turbo_router/controllers/default_test_controller_spec.rb[1:1:2:1]   | passed | 0.00262 seconds |
+./spec/turbo_router/controllers/helper_test_controller_spec.rb[1:1:1:1]    | passed | 0.00377 seconds |
+./spec/turbo_router/helpers/application_helpers_spec.rb[1:1:1:1]           | passed | 0.00011 seconds |
+./spec/turbo_router/helpers/application_helpers_spec.rb[1:1:2:1]           | passed | 0.00021 seconds |
+./spec/turbo_router_spec.rb[1:1]                                           | passed | 0.00072 seconds |

@@ -6,7 +6,7 @@ Bundler.setup
 
 require "action_controller/railtie"
 require "rspec/rails"
-require "turbo_router"
+require "turbo-router"
 require "pry"
 
 RSpec.configure do |config|
